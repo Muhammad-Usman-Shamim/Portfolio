@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="potfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo">M.USMAN SHAMIM</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section id="home1">
+    <div class="container">
+        <h1>Web Developer</h1>
+        <p>Creating beautiful and functional websites</p>
+        <a href="#projects" class="cta-btn">View My Work</a>
+    </div>
+</section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate web developer with expertise in creating responsive and user-friendly websites. I specialize in HTML, CSS, and JavaScript development.</p>
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90">
+                                    <span>HTML/CSS</span>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85">
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80">
+                                    <span>Responsive Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="ecom.png" alt="Project 1">
+                    <h3>E-commerce Website</h3>
+                    <p>A fully responsive e-commerce website with shopping cart functionality.</p>
+                    <div class="project-links">
+                        <a href="ecom.html" class="btn">Live Demo</a>
+                        <a href="ecom.html" class="btn">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="task.webp" alt="Project 2">
+                    <h3>Task Manager</h3>
+                    <p>A dynamic task management application with local storage.</p>
+                    <div class="project-links">
+                        <a href="task.html" class="btn">Live Demo</a>
+                        <a href="task.html" class="btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2025 M.USMAN SHAMIM. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="potfolio.js"></script>
+</body>
+</html>
